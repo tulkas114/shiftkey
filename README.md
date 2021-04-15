@@ -8,10 +8,11 @@ Use the `MainActivity` to get started. Using an address of "Dallas, TX", display
  back from the [Available Shifts API](https://bitbucket.org/shiftkeyllc/ios-coding-challenge/src/master/API-DOC.md) in a list. The shift cell should include information relevant to the provider
   and when tapped, it should present a different screen to display more information about the shift.
 
-The coding challenge should take around 2-4 hours. The submitted code should reflect what you feel represents your
- best work.
+The coding challenge should take around 2-4 hours. The submitted code should reflect what you feel represents your best work.
 
 You should be prepared to talk about your solution in an interview setting.
+
+To start working on the challenge, clone this repo onto your development machine. Commit your changes there and when finished, publish your repo on your public bitbucket or github account.
 
 ### Requirements ###
 
