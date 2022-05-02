@@ -12,6 +12,8 @@ The coding challenge should take around 2-4 hours. The submitted code should ref
 
 You should be prepared to talk about your solution in an interview setting.
 
+Please note that this code you submit is for the technical review portion of the interview process and will not be used in any production application. 
+
 To start working on the challenge, clone this repo onto your development machine. Commit your changes there and when finished, publish your repo on your public bitbucket or github account.
 
 ### Requirements ###
