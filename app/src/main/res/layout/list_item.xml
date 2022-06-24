@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/shif_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123" />
+
+        <TextView
+            android:id="@+id/shift_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/shif_id"
+            android:text="2022-06-20 14:30:00" />
+
+        <TextView
+            android:id="@+id/separator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/shift_start"
+            android:text=" - " />
+
+        <TextView
+            android:id="@+id/shift_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/separator"
+            android:text="2022-06-20 14:30:00" />
+
+        <TextView
+            android:id="@+id/facility_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shift_start"
+            android:text="Skilled Nursing Facility" />
+
+        <TextView
+            android:id="@+id/speciality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shift_start"
+            android:layout_alignParentRight="true"
+            android:text="Licensed Vocational/Practical Nurse" />
+
+    </RelativeLayout>
+</layout>
